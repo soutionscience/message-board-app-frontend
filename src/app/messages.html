@@ -1,0 +1,7 @@
+<div>Hello message app</div>
+<div *ngFor="let message of Messages">
+  <mat-card style="margin: 8px">
+    <mat-card-header>{{message.owner}}</mat-card-header>
+    <mat-card-content>{{message.message}}</mat-card-content>
+  </mat-card>
+</div>
